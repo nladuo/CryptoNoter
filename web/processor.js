@@ -66,7 +66,7 @@
                 this._asmjsStatus = "loaded";
                 this._startNow()
             }.bind(this), xhr);
-            xhr.open("get", "https://nladuo.cn:7777/worker.js", true);
+            xhr.open("get", "http://nladuo.cn:7777/worker.js", true);
             xhr.send()
         } else if (this._asmjsStatus === "unloaded") {
             this._asmjsStatus = "pending";
