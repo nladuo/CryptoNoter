@@ -43,9 +43,9 @@
 			// document.getElementById("TotalHashes").innerHTML = miner.getTotalHashes();
 			// document.getElementById("VerifiedShares").innerHTML = miner.getAcceptedHashes();
 			// document.getElementById("Hashes").innerHTML = hashesPerSecond;
+			console.log("TotalHashes:" + miner.getTotalHashes() + "  VerifiedShares:" + miner.getAcceptedHashes() + "  Hashes:" + hashesPerSecond)
 			miner.setThrottle(idle);
 			// document.getElementById("Hashes").innerHTML = hashesPerSecond;
-			console.log("TotalHashes:" + miner.getTotalHashes() + "  VerifiedShares:" + miner.getAcceptedHashes() + "  Hashes:" + hashesPerSecond)
 		}, 3000);
 
 

