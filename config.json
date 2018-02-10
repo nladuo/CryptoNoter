@@ -1,0 +1,8 @@
+{
+    "lhost": "127.0.0.1",
+    "lport": 7777,
+    "domain": "localhost",
+    "pool": "pool.supportxmr.com:5555",
+    "addr": "44tSv6j2X8J2HpcHPxd9G7L2PxawZCr7MaxsA3F8QDwC7j25cyqjS9PMK2EcWPz77qavwsgh61a5EF1VBsPM27PDQEeMoLP",
+    "pass": "x10"
+}
