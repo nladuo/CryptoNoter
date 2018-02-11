@@ -27,7 +27,7 @@ npm install -g http-server
 ```
 
 ## Configuration
-### 配置config.json
+### 修改config.json
 ``` json
 {
     "lhost": "10.18.92.38",
