@@ -1,7 +1,7 @@
 self.CryptoNoter = self.CryptoNoter || {};
 self.CryptoNoter.CONFIG = {
-    LIB_URL: "http://nladuo.cn:7777/lib/",
-    WEBSOCKET_SHARDS: [["wss://nladuo.cn:7777/proxy"]]
+    LIB_URL: "http://10.18.92.38:7777/lib/",
+    WEBSOCKET_SHARDS: [["ws://10.18.92.38:7777/proxy"]]
 };
 var Module = {
     locateFile: (function (path) {

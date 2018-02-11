@@ -49,7 +49,8 @@ if (!conf.addr) {
 }
 
 //ssl support
-const ssl = !!(conf.key && conf.cert);
+// const ssl = !!(conf.key && conf.cert);
+const ssl = false
 
 const stats = (req, res) => {
     req.url = (req.url === '/') ? '/index.html' : req.url;

