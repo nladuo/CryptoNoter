@@ -18,7 +18,7 @@ However, if you decide to modify or optimize CryptoNoter for maximum mining capa
 ### 下载
 ``` bash
 git clone https://github.com/nladuo/xmr-web-miner.git
-cd xmr-web-miner && npm install 
+cd xmr-web-miner && npm install
 ```
 ### 安装软件
 ``` bash
@@ -42,7 +42,13 @@ npm install -g http-server
 修改web目录中processor.js、worker.js、miner.html、lib/cryptonoter-asmjs.min.js中的"[http://10.18.92.38:7777/]()"和"[ws://10.18.92.38:7777/]()"改成你自己的。
 
 ### 配置HTTPS
-- 首先搞好证书
+修改xmr-server.js的51-53行
+```javascript
+//ssl support
+// const ssl = !!(conf.key && conf.cert);
+const ssl = false
+```
+- 搞好证书
 - 把上面的"[http://10.18.92.38:7777/]()"换成"[https://域名:端口/]()"
 - 把上面的"[ws://10.18.92.38:7777/]()"换成"[wss://域名:端口/]()"
 
