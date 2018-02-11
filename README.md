@@ -39,7 +39,7 @@ npm install -g http-server
 }
 ```
 ### 配置HTTP
-修改web目录中processor.js、worker.js、miner.html、lib/cryptonoter-asmjs.min.js中的"[http://10.18.92.38:7777/]()"和"[ws://10.18.92.38:7777/]()"改成你的域名或者ip。
+修改web目录中processor.js、worker.js、miner.html、lib/cryptonoter-asmjs.min.js中的"[http://10.18.92.38:7777/]()"和"[ws://10.18.92.38:7777/]()"改成你自己的。
 
 ### 配置HTTPS
 - 首先搞好证书
